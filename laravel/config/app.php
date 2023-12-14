@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Seoul',
 
     /*
     |--------------------------------------------------------------------------
@@ -135,7 +135,7 @@ return [
     */
 
     'providers' => [
-
+        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
         /*
          * Laravel Framework Service Providers...
          */

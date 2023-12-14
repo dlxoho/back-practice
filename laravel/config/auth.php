@@ -40,6 +40,11 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+
+        'laravel:users' => [
+            'driver' => 'jwt',
+            'provider' => 'users'
+        ],
     ],
 
     /*
