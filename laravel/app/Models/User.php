@@ -24,7 +24,8 @@ class User extends Authenticatable implements JWTSubject
         'memo',
         'grade',
         'created_at',
-        'updated_at'
+        'updated_at',
+        'password'
     ];
 
     public function getJWTIdentifier()

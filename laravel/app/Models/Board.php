@@ -19,7 +19,6 @@ class Board extends Model
         'created_at',
         'updated_at'
     ];
-
     public function files()
     {
         return $this->hasMany(BoardFile::class);
